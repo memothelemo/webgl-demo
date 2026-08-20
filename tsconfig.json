@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "types": [
+      "vite-plugin-glsl/ext"
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+  },
+  "exclude": ["./vite.config.ts"]
+}
